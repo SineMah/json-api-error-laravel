@@ -1,6 +1,7 @@
 /vendor
 .env
 .env.backup
+composer.lock
 
 .idea/
 /.idea
