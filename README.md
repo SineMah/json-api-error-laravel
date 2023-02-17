@@ -4,7 +4,7 @@
 https://jsonapi.org/examples/#error-objects-basics
 
 ## Installation
-`composer require sinema/json-api-error`
+`composer require sinema/json-api-error-laravel`
 
 ## Usage
 
@@ -43,8 +43,8 @@ Response
     "errors": [
         {
             "status": 404,
-            "title": "Bike not found",
-            "detail": "Bike bd11f048-8663-4d95-8c7a-02a5579b0682 not found in customer data"
+            "title": "Item not found",
+            "detail": "Item bd11f048-8663-4d95-8c7a-02a5579b0682 not found in customer data"
         }
     ]
 }
