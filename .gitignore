@@ -1,0 +1,8 @@
+/vendor
+.env
+.env.backup
+
+.idea/
+/.idea
+.vscode
+/.vscode

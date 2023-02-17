@@ -1,0 +1,31 @@
+{
+    "name": "sinema/json-api-error-laravel",
+    "description": "Format generic JSON API errors for Laravel",
+    "keywords": [
+        "JSON API",
+        "Error Responses",
+        "Laravel"
+    ],
+    "homepage": "https://github.com/SineMah/json-api-error-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sinema"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1.0",
+        "sinema/json-api-error": "^0.6",
+        "laravel/framework": "^9.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sinemah\\JsonApi\\Error\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "scripts": {},
+    "require-dev": {},
+    "minimum-stability": "dev"
+}
