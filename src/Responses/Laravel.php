@@ -17,7 +17,7 @@ class Laravel extends JsonApiErrorResponse
         return self::get();
     }
 
-    public function addError(array $error)
+    public function addError(array $error): self
     {
         $this->add(Error::fromArray($error));
 
