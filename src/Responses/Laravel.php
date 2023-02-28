@@ -17,6 +17,13 @@ class Laravel extends JsonApiErrorResponse
         return self::get();
     }
 
+    public function addError(array $error)
+    {
+        $this->add(Error::fromArray($error));
+
+        return $this;
+    }
+
     /**
      * @throws StatusUnavailableException
      */
